@@ -1,0 +1,25 @@
+@charset "utf-8";
+html{
+  /* font-size: 62.5%; */
+  /* width: 600px; */
+  /* height: 226px; */
+
+}
+/* *, *::before, *::after{
+  box-sizing: border-box;
+} */
+body{
+  margin: 0;
+  background: url('images/daniel-hehn-NdkM92CRaxg-unsplash_640_426_.jpg') no-repeat;
+  width: 90px;
+  height: 50px;
+  /* height: 50%; */
+  /* background-size: auto ; */
+  background-size: cover ;
+
+}
+
+/* -----cover----- */
+
+/* 大まかに、contain＝「元サイズor小」。cover＝「元サイズor大」 (width,height非指定時)*/
+/* width,heightを指定すればそれ以下にはならない (containは逆。w,hを指定すればそれ以上にはならない)*/
